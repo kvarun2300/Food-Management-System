@@ -20,20 +20,21 @@ Food Redistribution: Connects surplus food providers with individuals or organiz
 Waste Reduction: Minimizes food wastage by ensuring timely redistribution.
 Accessibility: Enables easy location-based search using geolocation features.
 Data-Driven Decisions: Provides analytical insights into food wastage trends and demand patterns.
-3. Approach
-3.1 Data Preparation
+
+## 3. Approach
+### 3.1 Data Preparation
 Utilized structured datasets containing food donation records.
 Cleaned and standardized data for consistency and accuracy.
 Handled missing values and ensured uniform formatting.
-3.2 Database Creation
+### 3.2 Database Creation
 Designed SQL tables for providers, receivers, food listings, and claims.
 Established relationships using primary and foreign keys.
 Implemented CRUD operations for dynamic data management.
-3.3 Data Analysis
+### 3.3 Data Analysis
 Performed SQL-based analysis to identify trends in food availability and demand.
 Generated insights based on location, food type, and claim patterns.
 Developed query-based reporting for decision-making.
-3.4 Application Development
+### 3.4 Application Development
 
 A Streamlit application was developed to:
 
@@ -44,20 +45,22 @@ Show contact details for direct communication between providers and receivers.
 3.5 Deployment
 The application is designed for deployment on platforms like Streamlit Cloud.
 Ensures real-time accessibility and user interaction.
-4. Data Flow and Architecture
-4.1 Data Storage
+
+## 4. Data Flow and Architecture
+### 4.1 Data Storage
 SQL database stores structured data for:
 Food providers
 Receivers
 Food listings
 Claims
-4.2 Processing Pipeline
+### 4.2 Processing Pipeline
 Data is processed using SQL queries and Python (Pandas).
 Analytical insights are generated from structured queries.
-4.3 Application Layer
+### 4.3 Application Layer
 Streamlit acts as the front-end interface.
 Enables user interaction, visualization, and database operations.
-5. Dataset
+
+## 5. Dataset
 
 The system uses four datasets:
 
@@ -69,7 +72,8 @@ Food Listings Dataset (food_listings.csv)
 Stores available food items, quantity, expiry date, and type.
 Claims Dataset (claims.csv)
 Tracks claims made by receivers along with status and timestamps.
-6. Dataset Description
+
+## 6. Dataset Description
 Providers Dataset
 Provider_ID (Primary Key)
 Name
@@ -99,7 +103,8 @@ Food_ID (Foreign Key)
 Receiver_ID (Foreign Key)
 Status (Pending, Completed, Cancelled)
 Timestamp
-7. SQL Queries & Analysis
+
+## 7. SQL Queries & Analysis
 
 The system answers key analytical questions:
 
@@ -120,7 +125,8 @@ Analysis & Insights
 Average food claimed per receiver
 Most claimed meal type
 Total food donated per provider
-8. Results
+
+## 8. Results
 ✅ Application Features
 Interactive Streamlit dashboard
 Dynamic filtering by location, provider, and food type
@@ -132,18 +138,21 @@ Identification of top food contributors
 Detection of high-demand locations
 Understanding claim success rates
 Recognition of food wastage patterns
-9. Project Evaluation Metrics
+
+## 9. Project Evaluation Metrics
 Database Completeness: Proper structuring and relationships
 Query Accuracy: Correct and meaningful SQL outputs
 CRUD Functionality: Reliable data modification operations
 User Experience: Intuitive and responsive UI design
-10. Technical Stack
+
+## 10. Technical Stack
 Programming Language: Python
 Database: MySQL / SQL
 Framework: Streamlit
 Libraries: Pandas, NumPy
 Domain: Data Analysis, Food Management
-11. Deliverables
+
+## 11. Deliverables
 Data Preparation
 Cleaned and structured datasets for analysis
 SQL Analysis
@@ -151,7 +160,8 @@ Implementation of 13+ queries for insights
 Application Development
 Fully functional Streamlit app
 Integrated visualization and filtering features
-12. Conclusion
+
+## 12. Conclusion
 
 The Local Food Wastage Management System provides an efficient and scalable solution to reduce food wastage and address food insecurity. By combining SQL-based analytics with an interactive Streamlit interface, the system enables real-time food redistribution, enhances accessibility, and supports data-driven decision-making.
 
