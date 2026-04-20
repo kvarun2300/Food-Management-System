@@ -75,7 +75,9 @@ Tracks claims made by receivers along with status and timestamps.
 
 ## 6. Dataset Description
 Providers Dataset
+
 Provider_ID (Primary Key)
+
 Name
 Type (Restaurant, Grocery Store, etc.)
 Address
