@@ -66,30 +66,33 @@ The system uses four datasets:
 
 Providers Dataset (providers.csv)
 Contains provider details such as name, type, location, and contact.
+
 Receivers Dataset (receivers.csv)
 Includes information about individuals or organizations receiving food.
+
 Food Listings Dataset (food_listings.csv)
 Stores available food items, quantity, expiry date, and type.
+
 Claims Dataset (claims.csv)
 Tracks claims made by receivers along with status and timestamps.
 
 ## 6. Dataset Description
-Providers Dataset
-
+Providers Dataset:
 Provider_ID (Primary Key)
-
 Name
 Type (Restaurant, Grocery Store, etc.)
 Address
 City
 Contact
-Receivers Dataset
+
+Receivers Dataset:
 Receiver_ID (Primary Key)
 Name
 Type (NGO, Individual, etc.)
 City
 Contact
-Food Listings Dataset
+
+Food Listings Dataset:
 Food_ID (Primary Key)
 Food_Name
 Quantity
@@ -99,7 +102,8 @@ Provider_Type
 Location
 Food_Type
 Meal_Type
-Claims Dataset
+
+Claims Dataset:
 Claim_ID (Primary Key)
 Food_ID (Foreign Key)
 Receiver_ID (Foreign Key)
