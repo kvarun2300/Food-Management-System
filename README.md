@@ -1,7 +1,7 @@
 # Food-Management-System
 
 Local Food Wastage Management System
-1. Problem Statement
+## 1. Problem Statement
 
 Food wastage is a critical global issue where large quantities of surplus food from households, restaurants, and grocery stores are discarded daily, while many individuals and communities face food insecurity. This imbalance highlights the need for an efficient system to redistribute excess food.
 
@@ -11,7 +11,8 @@ Food providers (restaurants, individuals) to list surplus food.
 Receivers (NGOs or individuals) to claim available food.
 Storage of food availability and location data using SQL.
 A Streamlit-based application for interaction, filtering, CRUD operations, and visualization.
-2. Business Use Cases
+
+## 2. Business Use Cases
 
 The system addresses real-world challenges through the following use cases:
 
